@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Smart Care",
+    "slug": "SmartCares",
+    "platforms": ["ios", "android", "web"],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./Image/logo3.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.FYP.smartcare",
+      "versionCode": 1
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.FYP.smartcare",
+      "buildNumber": "1.0.0"
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./Image/logo3.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
